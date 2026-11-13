@@ -1,0 +1,14 @@
+sap.ui.define([
+    "sap/ui/core/UIComponent"
+], function (UIComponent) {
+    "use strict";
+
+    return UIComponent.extend(
+        "shipment.tracking.shipmenttracking.ext.dashboard.Component",
+        {
+            metadata: {
+                manifest: "json"
+            }
+        }
+    );
+});

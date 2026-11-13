@@ -1,0 +1,26 @@
+ID,shipment_ID,previousLocation,currentLocation,previousStatus,newStatus,eventType,eventDateTime,previousETA,newETA,remarks,updatedBy
+a1111111-1111-4111-8111-111111111111,11111111-1111-4111-8111-111111111111,Hyderabad,Hyderabad,Created,PickedUp,StatusChanged,2026-10-10T10:00:00Z,,,Shipment picked up,system
+a2222222-2222-4222-8222-222222222222,11111111-1111-4111-8111-111111111111,Hyderabad,Anantapur,PickedUp,InTransit,StatusChanged,2026-10-11T08:00:00Z,,,Shipment departed origin,system
+a3333333-3333-4333-8333-333333333333,11111111-1111-4111-8111-111111111111,Anantapur,Anantapur,InTransit,InTransit,LocationUpdated,2026-10-12T06:00:00Z,,,Shipment moving towards Bengaluru,system
+a4444444-4444-4444-8444-444444444444,22222222-2222-4222-8222-222222222222,Chennai,Chennai,Created,PickedUp,StatusChanged,2026-10-09T10:00:00Z,,,Shipment collected,system
+a5555555-5555-4555-8555-555555555555,22222222-2222-4222-8222-222222222222,Chennai,Vijayawada,PickedUp,InTransit,StatusChanged,2026-10-10T08:00:00Z,,,Shipment delayed in transit,system
+a6666666-6666-4666-8666-666666666666,22222222-2222-4222-8222-222222222222,Vijayawada,Vijayawada,InTransit,InTransit,ETARevised,2026-10-11T09:00:00Z,2026-10-11T18:00:00Z,2026-10-13T18:00:00Z,ETA revised due to transport delay,system
+a7777777-7777-4777-8777-777777777777,33333333-3333-4333-8333-333333333333,Mumbai,Hyderabad,InTransit,InTransit,LocationUpdated,2026-10-10T08:00:00Z,,,Shipment arrived at destination city,system
+a8888888-8888-4888-8888-888888888888,33333333-3333-4333-8333-333333333333,Hyderabad,Hyderabad,InTransit,Delivered,Delivered,2026-10-11T14:30:00Z,,,Delivered successfully,system
+a9999999-9999-4999-8999-999999999999,44444444-4444-4444-8444-444444444444,Delhi,Delhi,Created,Created,ShipmentCreated,2026-10-11T09:00:00Z,,,Shipment registered,system
+ab111111-1111-4111-8111-111111111111,55555555-5555-4555-8555-555555555555,Hyderabad,Hyderabad,Created,PickedUp,StatusChanged,2026-10-07T09:00:00Z,,,Shipment picked up,system
+ab222222-2222-4222-8222-222222222222,55555555-5555-4555-8555-555555555555,Hyderabad,Nellore,PickedUp,InTransit,StatusChanged,2026-10-08T08:00:00Z,,,Shipment in transit,system
+ab333333-3333-4333-8333-333333333333,55555555-5555-4555-8555-555555555555,Nellore,Nellore,InTransit,InTransit,LocationUpdated,2026-10-12T04:00:00Z,,,Delayed during transit,system
+ab444444-4444-4444-8444-444444444444,66666666-6666-4666-8666-666666666666,Bengaluru,Hyderabad,InTransit,OutForDelivery,StatusChanged,2026-10-12T06:30:00Z,,,Courier out for delivery,system
+ab555555-5555-4555-8555-555555555555,77777777-7777-4777-8777-777777777777,Pune,Solapur,PickedUp,InTransit,StatusChanged,2026-10-12T03:00:00Z,,,Shipment travelling to Mumbai,system
+ab666666-6666-4666-8666-666666666666,88888888-8888-4888-8888-888888888888,Delhi,Nagpur,PickedUp,InTransit,StatusChanged,2026-10-07T08:00:00Z,,,Shipment departed Delhi,system
+ab777777-7777-4777-8777-777777777777,88888888-8888-4888-8888-888888888888,Nagpur,Nagpur,InTransit,InTransit,ETARevised,2026-10-11T08:00:00Z,2026-10-11T18:00:00Z,2026-10-14T18:00:00Z,Delay due to route disruption,system
+ab888888-8888-4888-8888-888888888888,99999999-9999-4999-8999-999999999999,Chennai,Bengaluru,InTransit,InTransit,LocationUpdated,2026-10-09T10:00:00Z,,,Arrived at Bengaluru,system
+ab999999-9999-4999-8999-999999999999,99999999-9999-4999-8999-999999999999,Bengaluru,Bengaluru,InTransit,Delivered,Delivered,2026-10-10T15:00:00Z,,,Delivered to receiver,system
+ac111111-1111-4111-8111-111111111111,aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa,Mumbai,Nashik,PickedUp,InTransit,StatusChanged,2026-10-09T08:00:00Z,,,Shipment in transit,system
+ac222222-2222-4222-8222-222222222222,aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa,Nashik,Nashik,InTransit,InTransit,LocationUpdated,2026-10-12T01:00:00Z,,,Tracking update received,system
+ac333333-3333-4333-8333-333333333333,cccccccc-cccc-4ccc-8ccc-cccccccccccc,Bengaluru,Chennai,InTransit,OutForDelivery,StatusChanged,2026-10-12T07:00:00Z,,,Delivery attempt planned,system
+ac444444-4444-4444-8444-444444444444,cccccccc-cccc-4ccc-8ccc-cccccccccccc,Chennai,Chennai,OutForDelivery,OutForDelivery,DeliveryAttempt,2026-10-12T07:30:00Z,,,First delivery attempt unsuccessful,system
+ac555555-5555-4555-8555-555555555555,ffffffff-ffff-4fff-8fff-ffffffffffff,Hyderabad,Suryapet,PickedUp,InTransit,StatusChanged,2026-10-12T04:30:00Z,,,Shipment moving towards Vijayawada,system
+ac666666-6666-4666-8666-666666666666,12345678-1234-4234-8234-123456789012,Mumbai,Pune,InTransit,Delivered,Delivered,2026-10-10T16:00:00Z,,,Shipment delivered,system
+ac777777-7777-4777-8777-777777777777,56789012-5678-4678-8678-567890123456,Hyderabad,Bengaluru,InTransit,Delivered,Delivered,2026-10-11T12:00:00Z,,,Shipment delivered successfully,system

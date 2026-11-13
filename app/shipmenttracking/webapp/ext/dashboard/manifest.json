@@ -1,0 +1,53 @@
+{
+  "_version": "1.89.0",
+  "sap.app": {
+    "id": "shipment.tracking.shipmenttracking.ext.dashboard",
+    "type": "application",
+    "dataSources": {
+      "mainService": {
+        "uri": "/odata/v4/shipment/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "4.0"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "dependencies": {
+      "minUI5Version": "1.153.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "models": {
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "operationMode": "Server",
+          "autoExpandSelect": true
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "shipment.tracking.shipmenttracking.ext.dashboard.Dashboard",
+      "type": "XML",
+      "id": "Dashboard",
+      "async": true
+    }
+  }
+  
+}
+
+

@@ -1,0 +1,52 @@
+
+<mvc:View
+    controllerName="shipment.tracking.shipmenttracking.ext.dashboard.Dashboard"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:layout="sap.ui.layout">
+
+    <Page title="Shipment Dashboard">
+        <content>
+            <VBox class="sapUiMediumMargin" width="100%">
+                <Title text="Shipment Overview" level="H2"/>
+
+                <layout:Grid
+                    defaultSpan="XL3 L3 M6 S12"
+                    hSpacing="1"
+                    vSpacing="1">
+
+                    <GenericTile header="Total Shipments">
+                        <TileContent>
+                            <NumericContent value="{kpis>/totalShipments}"/>
+                        </TileContent>
+                    </GenericTile>
+
+                    <GenericTile header="Delivered">
+                        <TileContent>
+                            <NumericContent value="{kpis>/deliveredShipments}"/>
+                        </TileContent>
+                    </GenericTile>
+
+                    <GenericTile header="Delayed">
+                        <TileContent>
+                            <NumericContent value="{kpis>/delayedShipments}"/>
+                        </TileContent>
+                    </GenericTile>
+
+                    <GenericTile header="Open Exceptions">
+                        <TileContent>
+                            <NumericContent value="{kpis>/openExceptions}"/>
+                        </TileContent>
+                    </GenericTile>
+
+                </layout:Grid>
+
+                <Button
+                    text="Refresh Dashboard"
+                    press=".onRefresh"
+                    class="sapUiSmallMarginTop"/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
+
